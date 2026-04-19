@@ -1,0 +1,10 @@
+[
+  {
+    "model_name": "Transformer_d64_ff128",
+    "train_accuracy": 0.7119,
+    "val_accuracy": 0.7222,
+    "test_accuracy": 0.6444,
+    "final_train_loss": 0.6645,
+    "best_model_path": "results\\model_Transformer_d64_ff128.pt"
+  }
+]

@@ -1,0 +1,18 @@
+Sentence idx=0: we discussed the movie in class at home
+Predicted: neutral | True: neutral
+Top-attended token (by received avg): 'discussed' (idx=1)
+Observation 1: Attention concentrates around 'discussed', suggesting the model focuses on this token when forming context.
+Observation 2: Attention appears concentrated on sentiment-bearing words rather than function words.
+
+
+Sentence idx=3: the film was remarkably fun now
+Predicted: negative | True: positive
+Top-attended token (by received avg): 'remarkably' (idx=3)
+Observation 1: Attention concentrates around 'remarkably', suggesting the model focuses on this token when forming context.
+Observation 2: Attention appears concentrated on sentiment-bearing words rather than function words.
+
+Sentence (negation): i do not like this movie
+Predicted: negative
+Top-attended token: 'do' (idx=1)
+Observation 1: Check whether attention links 'not' to the sentiment word to capture negation.
+Observation 2: If attention highlights the negation token and sentiment token together, model may handle negation better.
